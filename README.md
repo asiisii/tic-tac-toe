@@ -1,6 +1,29 @@
 # Tic Tac Toe
 
+### Table of Contents
+- [Overview](#overview-and-project-goals)
+- [Features](#features)
+- [How does this work?](#how-does-this-work)
+- [Project Reflection](#project-reflection)
+- [How To Contribute](#want-to-contribute)
+- [Authors and Contributors](#credits)
 
+## Overview and Project Goals
+### Learning Goals
+### Why was this project created?
+## Features
+## How does this work?
+## Want to contribute?
+### Technologies Used
+## Project Reflection
+
+##### Wins
+
+##### Challenges
+
+##### Overall Impressions
+
+#### Future Features
 ## Credits
 #### Authors
 <table>
@@ -12,3 +35,18 @@
  width="150" height="auto" /></td>
     </tr>
 </table>
+
+#### Project Manager
+<table>
+    <tr>
+         <td> Hannah Hudson <a href="https://github.com/hannahhch">GH</td>
+    </tr>
+    </tr>
+    <td><img src="https://avatars.githubusercontent.com/u/26528259?s=400&u=fa83afc7263cd5ba9b3a9f07e8ae78543c359063&v=4" alt="hannahhch GH img"
+ width="150" height="auto" /></td>
+</tr>
+</table>
+
+**************************************************************************
+###### This project was created for [Turing School of Software and Design](https://turing.io/)
+###### 2021/03/09
