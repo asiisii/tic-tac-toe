@@ -1,16 +1,20 @@
 class Player{
-  constructor(name){
+  constructor(name) {
     this.name = name;
     this.countWins = 0;
 
   }
-  incrementWins(){
+
+  calculateWins() {
     this.countWins++;
   }
-  saveWinsToStorage(){
+
+  saveWinsToStorage() {
 
   }
-  retrieveWinsFromStorage(){
+
+  retrieveWinsFromStorage() {
 
   }
+  
 }
