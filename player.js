@@ -1,11 +1,11 @@
 class Player{
-  constructor(player, wins){
-    this.id = player;
-    this.wins = wins
+  constructor(name){
+    this.name = name;
+    this.countWins = 0;
 
   }
   incrementWins(){
-    this.wins + = 1;
+    this.countWins++;
   }
   saveWinsToStorage(){
 
