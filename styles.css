@@ -124,6 +124,53 @@ p,
 }
 
 /*~~~~~~~~~~Tic Tac Toe board~~~~~~~~~~~~~~~*/
+.message,
+form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  color: #d5e0df;
+  font-size: 9rem;
+  z-index: 2;
+}
+
+.message.display {
+  display: flex;
+}
+
+form {
+  flex-direction: column;
+  font-size: 5rem;
+  z-index: 3;
+}
+
+.input-form.display {
+  display: flex;
+}
+
+input {
+  width: 25%;
+  height: 5%;
+  border-radius: 0.5rem;
+}
+
+.submit {
+  width: 10%;
+  font-size: 1.6rem;
+}
+
+.fail-message {
+  background: #a33434;
+  color: #ffffff;
+  font-size: 45px;
+}
+
 .wrapper{
   width: 90%;
   display: flex;
@@ -131,17 +178,41 @@ p,
   flex-wrap: wrap;
   margin-top: 5%;
 }
+
 .box {
   height: 150px;
   width: 30%;
   font-size: 100px;
 }
-.box:hover{
-  background: gray;
+
+.X::before {
+  font-family: "Stick", monospace;
+  content: 'X';
 }
-.zero,.one,.two,.three,.four,.five{
+
+.O::before {
+  font-family: "Stick", monospace;
+  content: "O";
+}
+
+.box:hover {
+  background: #b4dbdb;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
   border-bottom: 10px ridge #507872;
 }
-.one,.two,.four,.five,.seven,.eight{
+
+.two,
+.three,
+.five,
+.six,
+.eight,
+.nine {
   border-left: 10px ridge #507872;
 }
