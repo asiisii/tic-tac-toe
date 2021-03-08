@@ -1,63 +1,65 @@
-*{
-  margin : 0;
-  padding : 0;
+* {
+  margin: 0;
+  padding: 0;
   font-family: 'Righteous', cursive;
   color: #0c5d69;
 }
-main{
+
+main {
   min-height: 100vh; /*Takes the height of the screen*/
   background: linear-gradient(to right top, #729ba3, #729ba3);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /*~~~~~~~~~~Three main boxes ~~~~~~~~~~~~~~~*/
-.area{
+.area {
   margin: 0 10px;
   min-height: 85vh;
   background: linear-gradient(to right bottom,
     rgba(90, 176, 161, 0.5),
     rgba(197, 224, 227, 0.5));
 }
+
 .left,
 .center,
 .right,
 .box,
-h1{
+h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.box:hover{
+.box:hover {
   cursor: pointer;
 }
 
-.left{
+.left {
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
-  flex : 1;
-  /* border: 5px double green; */    /*Use this on JS during players turn*/
+  flex: 1;
 }
-.right{
+
+.right {
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  flex:1;
+  flex: 1;
 }
-.center{
-  flex:3;
+
+.center {
+  flex: 3;
   width: 300px;
 }
-.left > img,
-.right > img{
+
+img {
   margin-top: 15%;
   margin-bottom: 15%;
   border-radius: 50%;
   transition: transform .5s ease;
-  /* border-width: thick;
-  border-color: green;
-  border-style: double dotted;*/             /*Use this on JS during players turn*/
 }
+
 .img-border {
   border-width: thick;
   border-color: green;
@@ -66,35 +68,61 @@ h1{
   transform: scale(1.2);
 }
 
-.game-name{
+img:hover {
+  cursor: grabbing;
+}
+
+.score:hover,
+p:hover,
+.player1:hover,
+.player2:hover,
+.message:hover,
+.players-turn:hover,
+.game-name:hover {
+  cursor: default;
+}
+
+.game-name {
   background: linear-gradient(to right top, #729ba3, #729ba3);
 }
-.playersTurn{
+
+.playersTurn {
   margin-top: 15px;
 }
-.score{
+
+.score {
   font-size: 150px;
   flex-wrap: wrap;
 }
-p,.playersTurn{
+
+p,
+.playersTurn {
   font-size: 50px;
 }
-.restart-btn{
+
+.restart-btn {
+  background: transparent;
+  border: 3px ridge #507872;
   font-size: 20px;
   min-width: 15%;
-  background: transparent;
-  border:  3px ridge #507872;
-  align-self: flex-end;
   margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 25px;
 }
+
+.restart-btn:hover {
+  cursor: pointer;
+  background: #77bfa2;
+  color: #cfe3e1;
+}
+
 .divider {
   height: 5px;
   width: 90%;
   background-color: #353567;
-  border: none;
+  border: 0;
   margin-top: 10px;
 }
+
 /*~~~~~~~~~~Tic Tac Toe board~~~~~~~~~~~~~~~*/
 .wrapper{
   width: 90%;
