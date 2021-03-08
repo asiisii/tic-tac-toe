@@ -1,24 +1,23 @@
-/* */
-
 *{
   margin : 0;
   padding : 0;
-  font-family: "Stick", monospace;
+  font-family: 'Righteous', cursive;
+  color: #0c5d69;
 }
 main{
-  min-height: 95vh; /*Takes the height of the screen*/
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  min-height: 100vh; /*Takes the height of the screen*/
+  background: linear-gradient(to right top, #729ba3, #729ba3);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /*~~~~~~~~~~Three main boxes ~~~~~~~~~~~~~~~*/
 .area{
-  margin: 5px;
+  margin: 0 10px;
   min-height: 85vh;
   background: linear-gradient(to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255,255,255, 0.3));
+    rgba(90, 176, 161, 0.5),
+    rgba(197, 224, 227, 0.5));
 }
 .left,
 .center,
@@ -29,6 +28,11 @@ h1{
   flex-direction: column;
   align-items: center;
 }
+
+.box:hover{
+  cursor: pointer;
+}
+
 .left{
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -53,7 +57,7 @@ h1{
   border-style: double dotted;*/             /*Use this on JS during players turn*/
 }
 .game-name{
-  background: linear-gradient(#65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #729ba3, #729ba3);
 }
 .playersTurn{
   margin-top: 15px;
@@ -69,7 +73,7 @@ p,.playersTurn{
   font-size: 20px;
   min-width: 15%;
   background: transparent;
-  border:  5px groove gray;
+  border:  3px ridge #507872;
   align-self: flex-end;
   margin-right: 5px;
   margin-top: 5px;
