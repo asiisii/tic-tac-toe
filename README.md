@@ -6,6 +6,7 @@
 - [How does this work?](#how-does-this-work)
 - [Project Reflection](#project-reflection)
 - [How To Contribute](#want-to-contribute)
+- [Instructions for Running Project](#Instructions-for-running-project)
 - [Authors and Contributors](#credits)
 
 ## Overview and Project Goals
@@ -43,6 +44,11 @@ Players can assign their own name when the game loads. Their scores will be save
 
 ## Want to contribute?
 If you'd like to contribute, please fork this repository and clone it down to your local machine. Once you've successfully implemented the changes in code necessary for your intended contribution without changing any of the current functionality of main, contact the authors to review the changes.
+
+## Instructions for Running Project
+1. Clone this [repository.](https://github.com/asiisii/tic-tac-toe)
+2. `cd` into the repository in your terminal.
+3. Then `open index.html` in your terminal to view it on your browser.
 
 ### Technologies Used
 <p align="left">
