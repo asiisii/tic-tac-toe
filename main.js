@@ -18,7 +18,7 @@ var game = {};
 window.addEventListener('load', displayForm);
 submit.addEventListener('click', getPlayersName);
 resetBtn.addEventListener('click', restartGame);
-for(var i = 0; i < boxes.length; i++) {
+for (var i = 0; i < boxes.length; i++) {
   boxes.item(i).addEventListener('click', displayMarksAndTurn);
 }
 
@@ -36,7 +36,13 @@ function getPlayersName(event) {
 }
 
 function displayForm() {
-  formInput.classList.add('display');
+  if (window.localStorage.length !== 0) {
+    failMessage.style.backgroundColor = 'orange';
+    failMessage.innerText = `New game will start if previous game's
+    player names are not entered!`;
+    formInput.classList.add('display');
+  }else {
+    formInput.classList.add('display');
 }
 
 function startGame() {

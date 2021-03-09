@@ -69,11 +69,10 @@ class Game {
   }
 
   getPlayerNameAndScore() {
-    playerOne.innerText = `${this.player1.name}`;
-    playerTwo.innerText = `${this.player2.name}`;
+    playerOne.innerText = this.player1.name;
+    playerTwo.innerText = this.player2.name;
     player1Score.innerText = this.player1.countWins;
     player2Score.innerText = this.player2.countWins;
-    return;
   }
 
   resetPlayerInfo() {
