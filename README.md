@@ -42,6 +42,7 @@ Players can assign their own name when the game loads. Their scores will be save
 **[Back to top](#table-of-contents)**
 
 ## Want to contribute?
+If you'd like to contribute, please fork this repository and clone it down to your local machine. Once you've successfully implemented the changes in code necessary for your intended contribution without changing any of the current functionality of main, contact the authors to review the changes.
 
 ### Technologies Used
 ## Project Reflection
