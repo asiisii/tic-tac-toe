@@ -19,9 +19,11 @@ To solidify and demonstrate the understanding of:
 4. implementation of client-side data persistence by utilizing JSON and localStorage
 
 ## Features
+Players can assign their own name when the game loads. Their scores will be saved under their name so even after game being refreshed and as long as the player enters the same name, they're able to continue the previous game. After each round, game will announce a result and auto clears the board. If the player decides to restart the game, they're an option to click the restart button.
+
+**[Back to top](#table-of-contents)**
 
 ## How does this work?
-
 - *When the game loads, form will be displayed for user to assign their own unique name (maxlength 8). User won't able to proceed to the game without entering two different names. After clicking on submit button, empty game board, scores assigned to 0, and lets user know who's turn it is.*
 ![Landing Page](readme-img-folder/landing-pg.gif)
 
@@ -37,7 +39,10 @@ To solidify and demonstrate the understanding of:
 - *When you decide to play with other players then there's an option to restart the entire game. You will be given a form to enter players name after previous data being removed completely.*
 ![Restart option](readme-img-folder/restart.gif)
 
+**[Back to top](#table-of-contents)**
+
 ## Want to contribute?
+
 ### Technologies Used
 ## Project Reflection
 
@@ -74,3 +79,4 @@ To solidify and demonstrate the understanding of:
 **************************************************************************
 ###### This project was created for [Turing School of Software and Design](https://turing.io/)
 ###### 2021/03/09
+**[Back to top](#table-of-contents)**
