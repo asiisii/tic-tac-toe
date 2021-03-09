@@ -9,8 +9,15 @@
 - [Authors and Contributors](#credits)
 
 ## Overview and Project Goals
+The [goal](https://frontend.turing.io/projects/module-1/tic-tac-toe-solo.html) of this solo project I did for Mod1 at [Turing School of Software and Design](https://turing.io/) is to build a Tic Tac Toe game from scratch using HTML, CSS, and Vanilla Javascript.
+
 ### Learning Goals
-### Why was this project created?
+Solidify and demonstrate your understanding of:
+1. writing clean and DRY HTML, CSS, and JS
+2. understand the difference between the data model and how the data is displayed on the DOM
+3. the interaction between multiple class files
+4. implementation of client-side data persistence by utilizing JSON and localStorage
+
 ## Features
 ## How does this work?
 ## Want to contribute?
