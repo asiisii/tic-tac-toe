@@ -70,7 +70,7 @@ The hardest of this project was making a winning conditions for the game using c
 I'm really proud of this project as this is the first game I've built since I started coding a month ago while having 2 days to spare.
 
 #### Future Features
-I want to add a *about game* option for the players who doesn't know how to play [Tic Tac Toe.](https://github.com/asiisii/tic-tac-toe) and have multiplayer and single player option. For single player going against the AI, I'd make different game level (easy, medium, and hard).
+I want to add a *about game* option for the players who doesn't know how to play [Tic Tac Toe.](https://www.exploratorium.edu/brain_explorer/tictactoe.html) and have multiplayer and single player option. For single player going against the AI, I'd make different game level (easy, medium, and hard).
 
 ## Credits
 #### Authors
