@@ -1,23 +1,23 @@
-var player1Score = document.getElementById('player1Score');
-var player2Score = document.getElementById('player2Score');
-var playerOne = document.getElementById('player1');
-var playerTwo = document.getElementById('player2');
-var playersTurn = document.getElementById('playersTurn');
-var displayResult = document.getElementById('message');
-var resetBtn = document.getElementById('resetBtn');
 var boxes = document.querySelectorAll('.box');
-var leftImg = document.getElementById('leftImg');
-var rightImg = document.getElementById('rightImg');
-var player1Name = document.getElementById('p1Input');
-var player2Name = document.getElementById('p2Input');
-var formInput = document.getElementById('inputForm');
-var submit = document.getElementById('submit');
+var displayResult = document.getElementById('message');
 var failMessage = document.getElementById('failMsg');
+var formInput = document.getElementById('inputForm');
+var leftImg = document.getElementById('leftImg');
+var playerOne = document.getElementById('player1');
+var player1Score = document.getElementById('player1Score');
+var player1Name = document.getElementById('p1Input');
+var playerTwo = document.getElementById('player2');
+var player2Score = document.getElementById('player2Score');
+var player2Name = document.getElementById('p2Input');
+var playersTurn = document.getElementById('playersTurn');
+var resetBtn = document.getElementById('resetBtn');
+var rightImg = document.getElementById('rightImg');
+var submit = document.getElementById('submit');
 var game = {};
 
 window.addEventListener('load', displayForm);
-submit.addEventListener('click', getPlayersName);
 resetBtn.addEventListener('click', restartGame);
+submit.addEventListener('click', getPlayersName);
 for (var i = 0; i < boxes.length; i++) {
   boxes.item(i).addEventListener('click', displayMarksAndTurn);
 }
