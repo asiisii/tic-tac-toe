@@ -12,7 +12,7 @@
 ## Overview and Project Goals
 The [goal](https://frontend.turing.io/projects/module-1/tic-tac-toe-solo.html) of this solo project I did for Mod1 at [Turing School of Software and Design](https://turing.io/) is to build a Tic Tac Toe game from scratch using HTML, CSS, and Vanilla Javascript.
 
-### Why was this project created?
+## Why was this project created?
 To solidify and demonstrate the understanding of:
 1. writing clean and DRY HTML, CSS, and JS
 2. understand the difference between the data model and how the data is displayed on the DOM
@@ -50,7 +50,7 @@ If you'd like to contribute, please fork this repository and clone it down to yo
 2. `cd` into the repository in your terminal.
 3. Then `open index.html` in your terminal to view it on your browser.
 
-### Technologies Used
+## Technologies Used
 <p align="left">
   <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="javascript" />
   <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="html5"/>
@@ -61,12 +61,17 @@ If you'd like to contribute, please fork this repository and clone it down to yo
 ## Project Reflection
 
 ##### Wins
+I was able to finish the project before the due date, which gave me enough time to add new feature for players to insert their own name and restart the game whenever they want. Local storage is storing score data under the players name.
 
 ##### Challenges
+The hardest of this project was making a winning conditions for the game using concepts that were taught in the class. As it was the first time building a project where we had three javascript files with two of them being class file, it was hard to manipulate the DOM. Though I had to spent some extra time on it, I managed to figure it out.
 
 ##### Overall Impressions
+I'm really proud of this project as this is the first game I've built since I started coding a month ago while having 2 days to spare.
 
 #### Future Features
+I want to add a *about game* option for the players who doesn't know how to play [Tic Tac Toe.](https://github.com/asiisii/tic-tac-toe) and have multiplayer and single player option. For single player going against the AI, I'd make different game level (easy, medium, and hard).
+
 ## Credits
 #### Authors
 <table>
