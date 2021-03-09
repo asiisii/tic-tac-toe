@@ -1,7 +1,7 @@
 class Player {
   constructor(name) {
     this.name = name;
-    this.countWins = 0;
+    this.countWins = this.retreieveWinsFromStorage().countWins || 0;
   }
 
   calculateWins() {
