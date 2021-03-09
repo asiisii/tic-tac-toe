@@ -29,7 +29,7 @@ function getPlayersName(event) {
   }else if (player1Name.value === player2Name.value) {
     failMessage.innerText =  `Can't have same name!!`;
   }else {
-    game = new Game(player1Name.value, player2Name.value);
+    game = new Game(player1Name.value , player2Name.value);
     formInput.classList.remove('display');
     startGame();
   }
@@ -38,39 +38,39 @@ function getPlayersName(event) {
 function displayForm() {
   if (window.localStorage.length !== 0) {
     failMessage.style.backgroundColor = 'orange';
-    failMessage.innerText = `New game will start if previous game's
-    player names are not entered!`;
+    failMessage.innerText = `New game will start if previous game's player names are not entered!`;
     formInput.classList.add('display');
   }else {
     formInput.classList.add('display');
+  }
 }
 
 function startGame() {
-    playersTurn.innerText = `It's ${game.player1.name}'s turn`;
-    leftImg.classList.add('img-border');
-    game.getPlayerNameAndScore();
+  playersTurn.innerText = `It's ${game.player1.name}'s turn`;
+  leftImg.classList.add('img-border');
+  game.getPlayerNameAndScore();
 }
 
 function displayMarksAndTurn(event) {
-    var targetBox = event.target.classList;
-    if (targetBox[2] === 'X' || targetBox[2] === 'O') {
-      return;
-    }
+  var targetBox = event.target.classList;
+  if (targetBox[2] === 'X' || targetBox[2] === 'O') {
+    return;
+  }
 
-    if (game.isPlayer1next) {
-      game.removeBorder();
-      rightImg.classList.add('img-border');
-      targetBox.add('X');
-      playersTurn.innerText = `It's ${game.player2.name}'s turn`;
-    }else {
-      game.removeBorder();
-      leftImg.classList.add('img-border');
-      targetBox.add('O');
-      playersTurn.innerText = `It's ${game.player1.name}'s turn`;
-    }
+  if (game.isPlayer1next) {
+    game.removeBorder();
+    rightImg.classList.add('img-border');
+    targetBox.add('X');
+    playersTurn.innerText = `It's ${game.player2.name}'s turn`;
+  }else {
+    game.removeBorder();
+    leftImg.classList.add('img-border');
+    targetBox.add('O');
+    playersTurn.innerText = `It's ${game.player1.name}'s turn`;
+  }
 
-    game.checkGameStatus();
-    game.isPlayer1next = !game.isPlayer1next;
+  game.checkGameStatus();
+  game.isPlayer1next = !game.isPlayer1next;
 }
 
 function displayWin(letter) {
